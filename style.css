@@ -1,0 +1,153 @@
+/*Browser reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block; } body {line-height: 1; } ol, ul {list-style: none; } blockquote, q {quotes: none; } blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none; } table {border-collapse: collapse; border-spacing: 0; }
+
+a, a:hover {
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3.5em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2.5em;
+	line-height: 1.5em;
+}
+
+p {
+	text-align: center;
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+#hey img {
+	max-width: 300px;
+}
+
+img {
+	display: block;
+	margin: 15px auto;
+}
+
+body {
+	background-color: #f5f4f0;
+	font-family: 'Permanent Marker';
+}
+
+.block {
+	min-height: 100%;
+	padding: 5%;
+}
+
+.centerFlex {
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+.even {
+	background-color: skyblue;
+}
+ #building {
+ 	background-color: lightgray;
+ }
+
+ #building img {
+ 	max-width:142px;
+ }
+
+ #moovweb img {
+ 	max-width:200px;
+ }
+
+ #resume img {
+ 	max-width:150px;
+ }
+
+ /*#end img {
+ 	max-width:535px;
+ }*/
+
+.small {
+ 	font-size:1em;
+ }
+
+ #note .block {
+ 	margin-bottom:0;
+ 	padding-bottom:0;
+ }
+
+ #note img {
+ 	margin-bottom:0;
+ 	padding-bottom:0;
+ }
+
+ #note {
+ 	padding-bottom:0;
+ 	padding-top: 25px;
+ 	background-color: indianred;
+ 	color: white;
+ }
+
+ .row {
+ 	padding: 25px 0;
+ }
+
+ #centercode {
+ 	background-color: #015077;
+ 	color: white;
+ 	padding: 35px;
+ }
+
+ #working img {
+ 	max-width:180px;
+ }
+
+ #resume {
+ 	background-color: darkseagreen;
+ 	color: white;
+}
+
+#resume img {
+	margin-bottom:0;
+	max-width:75px;
+}
+
+#working {
+	background-color: darkseagreen;
+}
+
+#contributed {
+	background-color:lightcyan;
+}
+
+#note p{
+  padding: 35px 0;
+}
+
+@media only screen and (max-width: 40em) {
+	#hey img {
+		max-width:80%
+	}
+}
