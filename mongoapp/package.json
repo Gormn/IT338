@@ -1,0 +1,19 @@
+{
+  "name": "mongoapp",
+  "version": "1.0.0",
+  "description": "first mongo",
+  "main": "demo_mongodb_createcollection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gormn/IT338/blob/master/mongoapp"
+  },
+  "author": "Zach Ferraro",
+  "license": "ISC",
+  "dependencies": {
+    "express-generator": "^4.16.0",
+    "mongodb": "^3.0.8"
+  }
+}
