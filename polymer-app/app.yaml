@@ -29,12 +29,3 @@ handlers:
   static_files: build/es5-bundled/index.html
   upload: build/es5-bundled/index.html
   secure: always
-
-skip_files:
-- build/es6-bundled/
-- build/esm-bundled/
-- images/
-- node_modules/
-- server/
-- src/
-- test/
