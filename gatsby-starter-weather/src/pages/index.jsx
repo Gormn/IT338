@@ -5,11 +5,11 @@ import Header from "../components/header"
 
 export default () => (
   <div /*style={{ color: `purple` }} */>
-    <Header headerText="Hello Weather!" />
+    <Header headerText="Zach's Weather App!" />
     <ul>
-    <li><Link to="/">Home</Link></li> 
-    <li><Link to="/darkabout/">DarkSky Home</Link> </li>
-    <li><Link to="/openabout/">OpenWeather Home</Link> </li>
+    <li><Link to="/">Home Page</Link></li> 
+    <li><Link to="/darkabout/">DarkSky Source Info</Link> </li>
+    <li><Link to="/openabout/">OpenWeather Source Info</Link> </li>
       </ul>
     </div>
 )

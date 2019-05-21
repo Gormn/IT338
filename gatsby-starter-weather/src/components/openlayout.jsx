@@ -13,17 +13,18 @@ export default ({ children }) => (
     query={graphql`
       query {
     openWeather{
-      coord{
+      coord
+      {
         lon
         lat
-      
       }
-      weather {
+      weather 
+      {
         id
         main
         description
         icon
-      }
+      } 
       dt
       wind {
         speed
@@ -44,6 +45,8 @@ export default ({ children }) => (
             <li><h3>City Name: {data.openWeather.name}</h3></li>
             <li><h3>City Coord lat: {data.openWeather.coord.lat}</h3></li>
             <li><h3>City Coord lon: {data.openWeather.coord.lon}</h3></li>
+            <li><h3>Weather: {data.openWeather.weather.map(({main}, index) => <tr key={index}> <td>{main}</td> </tr>)}</h3></li>
+            <li><h3>Wind Speed: {data.openWeather.wind.speed}</h3></li>
      </ul></h3> 
 	
   </div>

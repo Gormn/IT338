@@ -1,12 +1,18 @@
 html {
-  background-color: lavenderblush;
+  background-color: rgb(116, 181, 235);
 }
 div { 
-      margin: 6px 6px 6px 6px;
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+
       max-width: 700px;
-      padding: 4px;
-      padding-top: 4px;
-      border: 2px solid red;
+      max-height: 700px;
+      text-align: center;
+      border: 2px solid rgb(0, 110, 255);
 
   }
 h3 {
