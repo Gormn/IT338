@@ -1,0 +1,21 @@
+{
+    "name": "React Time Tracking",
+    "short_name": "RTT",
+    "start_url": "/",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#023A5B",
+    "background_color": "#023A5B",
+    "icons": [
+    {
+        "src": "/public/images/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+    },
+    {
+        "src": "/public/images/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }
+    ] 
+}
